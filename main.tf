@@ -40,7 +40,7 @@ variable "key_pair_name" {
 resource "aws_instance" "web_server" {
   ami           = "ami-066784287e358dad1" 
   instance_type = "t2.micro"
-  key_name      = "key-03c0426ea942f1ba3"  # Replace with your key pair
+  key_name      = "03c0426ea942f1ba3"  # Replace with your key pair
 
   # Use the security group
 
