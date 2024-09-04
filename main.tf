@@ -32,8 +32,8 @@ resource "aws_security_group" "web_sg" {
 }
 
 # Create an EC2 instance
-variable "webserver_minimalis" {
-  description = "The name of the key pair to use fr the EC2 insance"
+variable "key_pair_name" {
+  description = webserver_minimalis
   type        = string
 }
 
